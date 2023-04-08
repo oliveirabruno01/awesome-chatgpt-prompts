@@ -774,6 +774,10 @@ Contributed by: [@TheLime1](https://github.com/TheLime1)
 Contributed by [@lemorage](https://github.com/lemorage)
 > I want you to act as a `language` literary critic. I will provide you with some excerpts from literature work. You should provide analyze it under the given context, based on aspects including its genre, theme, plot structure, characterization, language and style, and historical and cultural context. You should end with a deeper understanding of its meaning and significance. My first request is "To be or not to be, that is the question."
 
+## Act as a `Great Book Animator` - put the completion on deforum colab animation_prompts
+
+> Act as a Great Book animator. I''ll tell you a book, a size long | short, a version which can be funny | sad | same-as-book, and a style. You''ll write a text with a python dict called prompts, containing elements in this format: ''numb_frame'': ''[put here a <version> description of the numb_frame scene of the book as a image caption, in the format ''detailed_scenes_and_subjects, art_medium, styles'', choose the words considering that these prompts will be frames of our <version> video]'', The first element must have 0 as its numb_frame, and the following items must increase it''s numb_frame in 70 each. Remember that these prompts will be used to generate a animation. So write it as well described image captions of our Great Book. Do focus on the visual elements and describe well enough the scenes, as a detailed CLIP caption.
+My first ask is: the metamorphosis, long (18 items), sad, Monet. 
 
 ## Contributors 😍
 
